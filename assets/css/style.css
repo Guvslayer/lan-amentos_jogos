@@ -1,32 +1,38 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-nav ul{text-align: center; 
+nav ul{
+    text-align: center; 
     list-style: none;}
 
 :root {
     --color-destaque: #FF00CC
     --font-title:"Monserrat", sans-serif;
     --font-body:"Poppins", sans-serif;
+    --font-background:#2D2D2D
+    --font-color:#D0D0D0
 }
 
-nav a{color: #3333FF;}
+nav a{
+    color: #3333FF;}
 
-
-header{text-align: center;
-color: #FF00CC;
-font-size: x-large;
-font-family: "Montserrat";
-font-style: italic;
-height: 122vh;
+header{
+    text-align: center;
+    color: #FF00CC;
+    font-size: x-large;
+    font-family: "Montserrat";
+    font-style: italic;
+    height: 90vh
 }
 
-#secao-apresentacao img{
-    height: 100%;
+#secao-apresentacao{
     display: flex;
     border-radius: 50%;
     align-items: center;
-    }
+    height: 100%;
+}
 
-
+#secao-apresentacao img{
+    border-radius: 50%;
+}
 
 footer {
     position: absolute;
@@ -36,7 +42,8 @@ footer {
     color: #E9E9E9;
 }
 
-body{background-image: url(../image/Rectangle\ 1.png);
+body{
+    background-image: url(../image/Rectangle\ 1.png);
 background-position: cover;
 background-repeat: no-repeat;
 background-position-x: center;
@@ -48,7 +55,8 @@ position: absolute;
 z-index: -10;
 }
 
-header p {color: #D0D0D0;
+header p {
+    color: #D0D0D0;
     text-shadow: 
     -1px -1px 0px black, 
     -1px 1px 0px black,                    
@@ -56,14 +64,22 @@ header p {color: #D0D0D0;
      1px 0px 0px black;
 } 
 
-
-header h1 {font-size: 60px;
+header h1 {
+    font-size: 60px;
 text-shadow: black 5px 5px 5px;
 }
 
-header h2 {font-size: 40px;
+header h2 {
+    font-size: 40px;
 font-style: normal;
 font-family: "Poppins";
-text-shadow: black 5px 5px 5px;}
+text-shadow: black 5px 5px 5px;
+}
 
-section h2{font-size: 40px;}
+section h2{
+    font-size: 40px;
+}
+
+#texto-apresentacao{
+    font-size: 2.5rem;
+}
