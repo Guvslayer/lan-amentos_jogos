@@ -23,7 +23,7 @@ header {
     font-size: large;
     font-family: var(--font-title);
     font-style: italic;
-    height: 90vh;
+    height:90vh;
 }
 
 #secao-apresentacao {
@@ -35,9 +35,9 @@ header {
 }
 
 #secao-apresentacao img {
-    border-radius: 50%;
+    border-radius: 100%;
     width: 200px; /* Define um tamanho para a imagem */
-    height: 200; /* Mantém a imagem circular */
+    height: 200px; /* Mantém a imagem circular */
     object-fit: cover;
 }
 
@@ -93,7 +93,7 @@ section h2 {
 
 #secao-projetos {
     background-color: #272935;
-    height: 110vh;
+    height: 150vh;
 }
 
 .card {
@@ -114,6 +114,7 @@ section h2 {
     height: 100%;
     object-fit: cover;
 }
+
 
 .card-text {
     position:absolute;
